@@ -27,3 +27,17 @@ When this limit is exceeded the following error occurs:
 RateLimitError: Error code: 429 - {'error': {
   'message': 'Rate limit reached for gpt-4-vision-preview in ... on requests per day (RPD): Limit 100,...}}                                          
 ```
+
+## Usage
+It is recommended to run the notebook within a virtual environment.
+To run the notebook 
+- install the requirements
+- set an environment variable with your OpenAI key
+- open jupyter lab
+- open the notebook
+- choose Run -> Run All Cells
+```console
+pip install -r requirements.txt
+export OPEN_API_KEY=sk...
+jupyter lab
+```
