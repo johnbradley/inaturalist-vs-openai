@@ -30,6 +30,7 @@ RateLimitError: Error code: 429 - {'error': {
 
 ## Usage
 It is recommended to run the notebook within a virtual environment.
+
 To run the notebook 
 - install the requirements
 - set an environment variable with your OpenAI key
