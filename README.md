@@ -8,10 +8,20 @@ The complete results are visible in the notebook.
 The OpenAI results seem pretty good, but were not consistent between runs.
 This inconsistency is expected since the notebook uses the default OpenAI `temperature`.
 
+### Matching Species Example 
+![Example1](example1.png)
 
+### Mismatched Species Example
+![Example2](example2.png)
+
+### iNaturalist "Misidentified" Species Example
+One of the [observations included two images](https://www.inaturalist.org/observations/14803608).
+The first image was of a plant without the butterfly. The second was the plant with the butterfly.
+The notebook only used the first image and the model predicted a plant.
+![Example2](example3.png)
 
 ## Preview Model Limitations
-The model being used is a preview so only 100 requests are allwed per day.
+The model being used is a preview so only 100 requests are allowed per day.
 When this limit is exceeded the following error occurs:
 ```
 RateLimitError: Error code: 429 - {'error': {
